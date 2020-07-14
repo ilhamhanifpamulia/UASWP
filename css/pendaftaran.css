@@ -1,0 +1,118 @@
+#logo {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 8px;
+  display: block;
+}
+@media (max-width: 768px) {
+  #logo {
+    width: 50%;
+    height: 50%;
+  }
+}
+#judul {
+  color: #1b9d85;
+  margin-bottom: -5px;
+  font-size: 2.5em;
+  text-align: center;
+  text-shadow: 2px 1px rgb(0, 0, 0);
+}
+#sub {
+  font-size: 1.8em;
+  text-align: center;
+  text-shadow: 2px 1px rgb(255, 255, 255);
+}
+
+.txtinput {
+  width: 55vw;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #c4c4c4;
+  height: 40px;
+  padding: 7px;
+}
+
+#konten {
+  margin: 12vw;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 1vw;
+  background: rgba(58, 58, 58, 0.7);
+  padding: 10vw;
+  width: 75vw;
+}
+#form {
+  width: 55vw;
+}
+#radio-gender {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.gender {
+  margin-bottom: 8px;
+  color: white;
+}
+#opinion {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+  flex-direction: column;
+}
+.option {
+  padding: 4px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 10px;
+}
+#txt-area {
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #c4c4c4;
+}
+.txt {
+  color: white;
+}
+#submit {
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  margin-top: 40px;
+  background-color: #1b9d85;
+  border-width: 0;
+  color: white;
+  font-weight: 600;
+}
+#container-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#submit_1 {
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  margin-top: 5px;
+  background-color: #1b9d85;
+  border-width: 0px;
+  color: white;
+  font-weight: 600;
+}
+
+#sub_1 {
+  text-align: center;
+  text-shadow: 2px 1px rgb(255, 255, 255);
+}

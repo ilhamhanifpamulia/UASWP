@@ -1,0 +1,50 @@
+#data_pasien{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#d_pasien{
+    margin-top: 0%;
+}
+
+#logo2 {
+    width: 450px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    top: -5px;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    #logo {
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+#cari{
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  margin-top: 5px;
+  background-color: blue;
+  border-width: 0px;
+  color: white;
+  font-weight: 600;
+}
+
+.cari{
+  width: 20vw;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #c4c4c4;
+  height: 40px;
+  padding: 7px;
+}
+
+.tpasien{
+  width: 98.8vw;
+  position: relative;
+  height: 10vw;
+}
